@@ -1,5 +1,9 @@
 Cluster coordination with zookeeper
 
+BUILD
+    
+    mvn clean package
+
 RUN
 
 start zookeeeper server at port 2181 with three namespaces: coordinator_service_registry, election, workers_service_registry
